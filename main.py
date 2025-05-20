@@ -1,5 +1,5 @@
 from lib import AMSpi
-import time
+from time import sleep
 
 def main() -> None:
     with AMSpi() as amspi:
